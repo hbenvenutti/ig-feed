@@ -34,9 +34,13 @@ export const Post = (props: PostProps) => (
            O nome do projeto é DoctorCare 🚀
         </p>
 
-        <p><a href="#">👉 jane.design/doctorcare</a></p>
+        <p><a href="#">  jane.design/doctorcare</a></p>
 
-        <p><a href="#">#novoprojeto #nlw #rocketseat</a></p>
+        <p>
+          <a href="#">#novoprojeto</a>{' '}
+          <a href="#">#nlw </a>{' '}    
+          <a href='#'>#rocketseat</a>
+        </p>
       </div>
     </article>
   </>

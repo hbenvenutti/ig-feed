@@ -1,5 +1,6 @@
 import React from 'react';
 import { Avatar } from '../avatar/Avatar';
+import { Comment } from '../Comments/Comments';
 import styles from './Post.module.css';
 interface PostProps {
   author: string
@@ -49,6 +50,11 @@ export const Post = (props: PostProps) => (
           <button type='submit'>Publicar</button>
         </footer>
       </form>
+      <div className={styles.commentList}>
+        <Comment/>
+        <Comment/>
+        <Comment/>
+      </div>
     </article>
   </>
 );

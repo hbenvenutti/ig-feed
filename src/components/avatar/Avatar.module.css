@@ -1,5 +1,11 @@
 .avatar {
-  /* Mantem o tamanho inicial, aumentando para fora ao criar bordas e padding*/
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+}
+
+.avatarWithBorders {
+    /* Mantem o tamanho inicial, aumentando para fora ao criar bordas e padding*/
   /* box-sizing: initial;  */
   
   /* Resolvendo o tamanho com calculos */

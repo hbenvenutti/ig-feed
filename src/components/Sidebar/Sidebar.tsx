@@ -13,12 +13,7 @@ export const Sidebar = () => (
     />
     
     <div className={styles.profile}>
-      <Avatar />
-      {/* <img 
-        className={styles.avatar} 
-        src="https://github.com/hbenvenutti.png" 
-        alt="user avatar" 
-      /> */}
+      <Avatar src="https://github.com/hbenvenutti.png"/>
 
       <strong>Huam Benvenutti</strong>
       <span>Web Developer</span>

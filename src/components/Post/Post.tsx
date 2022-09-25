@@ -12,7 +12,7 @@ export const Post = (props: PostProps) => (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <Avatar />
+          <Avatar src="https://github.com/diego3g.png"/>
         
           <div className={styles.authorInfo}>
             <strong>Huam Benvenutti</strong>

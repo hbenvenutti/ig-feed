@@ -10,3 +10,13 @@
   /* Alinha as colunas pelo topo e mantem a altura da coluna menor | O padrão é o stretch */
   align-items: flex-start; 
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
